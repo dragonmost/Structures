@@ -1,0 +1,24 @@
+﻿La génération a démarré 2014-10-31 13:31:09.
+     1>Projet "P:\Prog\TP\TP2_30OCT\TP1\TP1.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>Main.cpp(51): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+     1>Main.cpp(127): warning C4018: '<=' : incompatibilité signed/unsigned
+     1>Main.cpp(373): warning C4018: '<=' : incompatibilité signed/unsigned
+     1>Main.cpp(398): warning C4018: '<=' : incompatibilité signed/unsigned
+     1>p:\prog\tp\tp2_30oct\tp1\ListeSC.h(68): warning C4018: '<=' : incompatibilité signed/unsigned
+                 p:\prog\tp\tp2_30oct\tp1\ListeSC.h(67) : lors de la compilation de la fonction membre 'CFood CListSC<CFood *>::Obtenir(int)' de la classe modèle
+                 Main.cpp(129) : voir la référence à l'instanciation de la fonction modèle 'CFood CListSC<CFood *>::Obtenir(int)' en cours de compilation
+                 Main.cpp(55) : voir la référence à l'instanciation de la classe modèle 'CListSC<CFood *>' en cours de compilation
+     1>p:\prog\tp\tp2_30oct\tp1\ListeSC.h(93): warning C4018: '<' : incompatibilité signed/unsigned
+                 p:\prog\tp\tp2_30oct\tp1\ListeSC.h(80) : lors de la compilation de la fonction membre 'bool CListSC<CFood *>::retirer(int)' de la classe modèle
+                 Main.cpp(312) : voir la référence à l'instanciation de la fonction modèle 'bool CListSC<CFood *>::retirer(int)' en cours de compilation
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"P:\Prog\TP\TP2_30OCT\Release\TP2.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"P:\Prog\TP\TP2_30OCT\Release\TP2.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"P:\Prog\TP\TP2_30OCT\Release\TP2.lib" /MACHINE:X86 /SAFESEH Release\Main.obj
+     1>LINK : fatal error LNK1561: le point d'entrée doit être défini
+     1>Génération du projet "P:\Prog\TP\TP2_30OCT\TP1\TP1.vcxproj" terminée (Build cible(s)) -- ÉCHEC.
+
+ÉCHEC de la build.
+
+Temps écoulé 00:00:01.20

@@ -1,0 +1,15 @@
+DOSSIER /
+DOSSIER Dossier
+DOSSIER Sous-dossier
+FICHIER Fichier avec un nom trop long
+Contenu d'un fichier avec un nom trop long.
+REIHCIF
+REISSOD
+FICHIER Autre fichier
+Contenu d'un autre fichier.
+REIHCIF
+REISSOD
+FICHIER Fichier
+Contenu d'un fichier.
+REIHCIF
+REISSOD

@@ -1,0 +1,19 @@
+1. afficher tableau 2D
+2. trouver point dentre (px etre trouve lors de laffichage du tableau 2D?)
+3. main.cpp, CPile.h, CCellulePile.h, CPosition.h
+	CPosition:
+		uix: unsingned int
+		uiy: unsingned int
+		boNorth: bool		array for direction !?
+		boSouth: bool		arrDirection[4]
+		boEast: bool
+		boWest: bool
+	objet->position(x,y)
+
+3 cas
+-une seul posibilite: go ya juste un choix
+-plusieurs posibilite: (Pile) stack position(x,y), random direction 
+-aucune posibilite: 
+
+
+IMPORTANT: ne pas revenir sur ses pas (sauf si necesaire)(no shit)

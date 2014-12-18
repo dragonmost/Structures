@@ -1,0 +1,61 @@
+#include <iostream>
+#include <windows.h>
+
+using namespace std;
+
+int SP = 0;				//Stack Pointer
+int Stack[10];			//la Pile
+
+
+void Empiller(int Nb){
+	if (SP < 10){
+		Stack[SP] = Nb;
+		SP = SP++;
+	}
+	else{
+		cout << "t deja au max" << endl;
+	}
+}
+
+void Depiller(){
+	if (SP > 0){
+		SP = SP--;
+	}
+	else
+		cout << "yo yo yo capote pas la!!!!!1!"<<endl;
+}
+
+void Voir(){
+	for (int i = 0; i < SP; i++){
+		cout << Stack[i] << endl;
+	}
+}
+
+
+void main(void){
+	char Command='a';			//E ou D
+	int Nb;					//le nombre a ajouter dans la pile
+
+	while (Command != 'q'){
+		cout << "Yo tu'E'mpile ou tu 'D'epile : " ;
+		cin >> Command;
+
+
+		if (Command == 'e') {
+			cout << "tu vx empiller quoi ? " ;
+			cin >> Nb;
+			Empiller(Nb);
+		}
+
+		if (Command == 'd'){
+			Depiller();
+		}
+
+		if (Command == 'v'){
+			Voir();
+		}
+	}
+	//system("pause");
+	//Sleep(2000);
+}
+
